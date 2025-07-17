@@ -1,4 +1,4 @@
-# 🎉 New Year Offer Resources
+# 🎉 Architects_Resources
 
 ## 🚀 Live Demo
-[View on GitHub Pages](https://shahriartbc.github.io/New_Year_Offer_Resources/)
+[View on GitHub Pages](https://shahriartbc.github.io/Architects_Resources/)
