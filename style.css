@@ -14,17 +14,36 @@
     display: flex;
 }
 
+/* dark 02 */
 .text-gray{
-    color: #424242 ;
+    color: #424242;
 }
+
+/* dark 03 */
+.text-light-gray{
+    color: #727272;
+}
+
+.bg-light{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+/* -------------------------- */
+
 
 
 /* header style  */
 
 
+
 /* navbar related style  */
 .navbar {
+    justify-content: space-between;
     
+}
+
+.brand{
+    color: 131313 ;
 }
 
 .nav-link{
@@ -37,4 +56,10 @@
 .nav-item{
     list-style: none;
     margin-right: 50px;
+}
+
+.navbar, .banner{
+    width: 1440px;
+    height: 700px;
+    margin: 0 auto;
 }
