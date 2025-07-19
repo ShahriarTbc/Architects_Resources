@@ -132,7 +132,7 @@ main > section{
 }
 
 .features-title{
-    font-size: 2.81rem;
+    font-size: 2.80rem;
     font-weight: 700;
 }
 .quick-list{
@@ -145,12 +145,58 @@ main > section{
     color:#FF900E;
 }
 
+.features-description{
+    color: #727272;
+    font-size: 1rem;
+}
+
+
+/* features will enjoy style  */
+
+
+.some-facts-title{
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.some-facts-description{
+    color: #727272;
+    font-size: 1rem;
+}
+
+
+/* some facts style   */
+
+
+
 
 
 
 /* responsive media quary  */
 @media screen and (max-width: 576px) {
-    .navbar,.nav-link{
+    .navbar,
+    .nav-link,
+    .teams
+    {
         flex-direction: column;
     }
+
+    .team-img-container{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 14px;
+   }
+
+   .our-features{
+    margin-left: 10px;
+   }
+}
+
+
+/* medium size device  */
+@media screen and (min-width: 577px) and (max-width:992px) {
+    .teams{
+    flex-direction: column;
+    margin: 50px auto;
+    }
+    
 }
