@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-
 .work-sans-font {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
 }
-
 
 /* shared style  */
 .display-flex{
@@ -47,8 +45,17 @@
     background-color: #e27900;
 }
 
-/* -------------------------- */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
 
+main > section{
+    margin-top: 130px;
+}
+
+
+/* -------------------------- */
 
 
 /* header style  */
@@ -74,6 +81,8 @@
 .nav-item{
     list-style: none;
     margin-right: 50px;
+    font-size: 1.1rem;
+    color: #424242;
 }
 
 .navbar, .banner{
@@ -95,10 +104,49 @@
     margin-bottom: 50px;
 }
 
+.banner-description{
+    color: #727272;
+    font-size: 1rem;
+}
 
 .banner-img{
     width: 100%;
 }
+
+
+
+/* Team amd feature style  */
+.teams{
+    align-items: center;
+}
+
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.our-features{
+    margin-left: 130px;
+    max-width: 530px;
+}
+
+.features-title{
+    font-size: 2.81rem;
+    font-weight: 700;
+}
+.quick-list{
+    font-weight: 500;
+    color: #727272;
+}
+
+.features{
+    font-weight: 700;
+    color:#FF900E;
+}
+
+
+
 
 /* responsive media quary  */
 @media screen and (max-width: 576px) {
