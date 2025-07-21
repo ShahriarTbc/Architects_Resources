@@ -4,7 +4,7 @@
 G3 Architects Resources is a modern, fully responsive website designed for architecture firms, studios, and professionals. The site features a clean layout, engaging visuals, and a user-friendly interface to showcase teams, features, achievements, and sponsors.
 
 ## 🚀 Live Demo
-[View on GitHub Pages](https://shahriartbc.github.io/Architects_Resources/)
+[View on GitHub Pages](https://shariar-ahamed.github.io/Architects_Resources/)
 
 ---
 
@@ -72,7 +72,7 @@ The website is fully responsive and adapts seamlessly to mobile, tablet, and des
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/ShahriarTbc/Architects_Resources.git
+   git clone https://github.com/shariar-ahamed/Architects_Resources.git
    ```
 2. **Open `index.html` in your browser.**
 
@@ -80,7 +80,7 @@ The website is fully responsive and adapts seamlessly to mobile, tablet, and des
 
 ## 🙌 Credits
 
-- Designed and developed by [ShahriarTbc](https://github.com/ShahriarTbc)
+- Designed and developed by [shariar-ahamed](https://github.com/shariar-ahamed)
 
 ---
 
